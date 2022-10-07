@@ -46,15 +46,17 @@ namespace Oscar
             Console.WriteLine($"the sum is {sum}");
 
             //.ex.2. Write a program in C# Sharp to display n terms of natural number and their sum.
-            int n, e, total = 0;
+            int n, i, total = 0;
             Console.WriteLine("Input Value of terms : ");
             n = int.Parse(Console.ReadLine());
-            for (e = 1; e <= n; e++)
+            for (i = 1; i <= i; i++)
             {
-                total = total + e;
+                total = total + i;
             }
                 Console.WriteLine("The total of natural number are:  " + total );
             Console.ReadLine();
+
+           // ex.4.
 		}
 	}
 }
