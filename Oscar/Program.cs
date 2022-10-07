@@ -9,7 +9,7 @@ namespace Oscar
 	internal class Program
 	{
 		static void Main(string[] args)
-		{
+        {            //Basic
             //ex.5 
             int number1, number2, temp;
             Console.Write("\nInput the First Number : ");
@@ -24,7 +24,8 @@ namespace Oscar
             Console.Write("\nSecond Number : " + number2);
             Console.Read();
 
-            //ex.1.Sharp to display the first 10 natural numbers. (for loop)
+                 //FOR LOOP
+            //ex.1.Sharp to display the first 10 natural numbers. 
             int x;
             Console.WriteLine("Display the first 10 natural numbers; ");
    
@@ -35,6 +36,25 @@ namespace Oscar
                 Console.WriteLine("{0}", x);
             }
 
+            //2. Write a C# Sharp program to find the sum of first 10 natural numbers.
+             int d,sum = 0;
+            for (d = 0; d <= 10; d++)
+            {
+                    sum = sum + d;
+                Console.WriteLine("{0}", d);
+            }
+            Console.WriteLine($"the sum is {sum}");
+
+            //.ex.2. Write a program in C# Sharp to display n terms of natural number and their sum.
+            int n, e, total = 0;
+            Console.WriteLine("Input Value of terms : ");
+            n = int.Parse(Console.ReadLine());
+            for (e = 1; e <= n; e++)
+            {
+                total = total + e;
+            }
+                Console.WriteLine("The total of natural number are:  " + total );
+            Console.ReadLine();
 		}
 	}
 }
