@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace Oscar
 {
-	internal class Program
-	{
-		static void Main(string[] args)
+    internal class Program
+    {
+        static void Main(string[] args)
         {            //Basic
             //ex.5 
             int number1, number2, temp;
@@ -57,7 +57,7 @@ namespace Oscar
             Console.ReadLine();
 
            // ex.4.
-		}
-	}
+        }
+    }
 }
 
